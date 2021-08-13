@@ -1,0 +1,914 @@
+Message-ID: <91149146.130121.1624269611993.JavaMail.root@wiki-0.wiki.atlassian.svc.cluster.local>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_130120_1613446656.1624269611993"
+
+------=_Part_130120_1613446656.1624269611993
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>a01 Upgrade=E6=A8=A1=E5=9D=97 =E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=
+=8B</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>a01 Upgrade=E6=A8=A1=E5=9D=97 =E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=8B<=
+/h1>
+    <div class=3D"Section1">
+        <h2 class=3D"auto-cursor-target" id=3D"a01Upgrade=E6=A8=A1=E5=9D=97=
+=E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=8B-=E6=B5=8B=E8=AF=95=E7=89=88=E6=9C=AC=
+=EF=BC=9Av1.0.0-rc0">=E6=B5=8B=E8=AF=95=E7=89=88=E6=9C=AC=EF=BC=9Av1.0.0-rc=
+0</h2>
+<h2 class=3D"auto-cursor-target" id=3D"a01Upgrade=E6=A8=A1=E5=9D=97=E6=B5=
+=8B=E8=AF=95=E7=94=A8=E4=BE=8B-=E6=B5=8B=E8=AF=95=E8=8C=83=E5=9B=B4=EF=BC=
+=9A">=E6=B5=8B=E8=AF=95=E8=8C=83=E5=9B=B4=EF=BC=9A</h2>
+<ul>
+<li>Gov =E7=AE=A1=E7=90=86=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88</li>
+<li>=E6=96=B0=E5=A2=9E=E6=A8=A1=E5=9D=97=E7=9A=84=E9=9D=9E=E5=85=BC=E5=AE=
+=B9=E5=8D=87=E7=BA=A7<br><br></li>
+</ul>
+<h2 id=3D"a01Upgrade=E6=A8=A1=E5=9D=97=E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=8B-=
+=E6=B5=8B=E8=AF=95=E5=8D=87=E7=BA=A7=E7=9A=84=E5=89=8D=E5=90=8E=E7=89=88=E6=
+=9C=AC=EF=BC=9A">=E6=B5=8B=E8=AF=95=E5=8D=87=E7=BA=A7=E7=9A=84=E5=89=8D=E5=
+=90=8E=E7=89=88=E6=9C=AC=EF=BC=9A</h2>
+<p>=E5=8D=87=E7=BA=A7=E5=89=8D=EF=BC=9A</p>
+<p><a href=3D"https://github.com/irisnet/irishub/tree/master" class=3D"exte=
+rnal-link" rel=3D"nofollow">https://github.com/irisnet/irishub/tree/master<=
+/a></p>
+<p>=E5=8D=87=E7=BA=A7=E5=90=8E=EF=BC=9A</p>
+<p><a href=3D"https://github.com/irisnet/irishub/tree/upgrade-test" class=
+=3D"external-link" rel=3D"nofollow">https://github.com/irisnet/irishub/tree=
+/upgrade-test</a></p>
+<h2 id=3D"a01Upgrade=E6=A8=A1=E5=9D=97=E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=8B-=
+=E9=9C=80=E6=B1=82=E5=88=97=E8=A1=A8">=E9=9C=80=E6=B1=82=E5=88=97=E8=A1=A8<=
+/h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable" style=3D"width: 1015.0px;">
+<colgroup>
+<col style=3D"width: 0.0px;">
+<col style=3D"width: 0.0px;">
+<col style=3D"width: 0.0px;">
+</colgroup>
+<thead>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh"><p>=E9=9C=80=E6=B1=82=E7=BC=96=E5=
+=8F=B7</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p><strong>=E5=8A=
+=9F=E8=83=BD=E9=9C=80=E6=B1=82</strong></p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p><strong>=E6=8F=
+=8F=E8=BF=B0</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E7=94=A8=E6=88=B7=E9=80=9A=E8=
+=BF=87Gov=E6=A8=A1=E5=9D=97=E7=AE=A1=E7=90=86=E5=8D=87=E7=BA=A7=E6=8F=90=E6=
+=A1=88</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=9C=A8=E5=90=8C=E4=B8=80=E6=97=B6=E5=88=BB=E5=8F=AA=E8=83=BD=E5=AD=
+=98=E5=9C=A8=E4=B8=80=E4=B8=AA=E6=B4=BB=E8=B7=83=E7=9A=84=E5=8D=87=E7=BA=A7=
+=E6=8F=90=E6=A1=88</li>
+<li>=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=E7=9A=84 name =E5=8F=AA=E8=83=BD=
+=E4=BD=BF=E7=94=A8=E6=96=B0=E7=89=88=E6=9C=AC=E8=BD=AF=E4=BB=B6=E5=86=85=E9=
+=83=A8=E5=AE=9A=E4=B9=89=E7=9A=84 upgrade name=EF=BC=88=E6=AD=A4=E6=A0=A1=
+=E9=AA=8C=E4=BC=9A=E5=9C=A8=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=E9=80=9A=E8=
+=BF=87=E4=B8=94=E5=88=B0=E8=BE=BE=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E6=97=
+=B6=E9=97=B4=E5=90=8E=EF=BC=8C=E5=88=87=E6=8D=A2=E8=8A=82=E7=82=B9=E7=89=88=
+=E6=9C=AC=E6=97=B6=E6=89=A7=E8=A1=8C=EF=BC=89</li>
+<li>=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=E5=8F=AA=E8=83=BD=E6=8C=87=E5=AE=
+=9A=E6=9C=AA=E6=9D=A5=E7=9A=84=E5=8D=87=E7=BA=A7=E5=8C=BA=E5=9D=97=E9=AB=98=
+=E5=BA=A6=E6=88=96=E6=97=B6=E9=97=B4=EF=BC=88=E6=97=B6=E9=97=B4=E6=A0=BC=E5=
+=BC=8F=E7=A4=BA=E4=BE=8B=EF=BC=9A"2006-01-02T15:04:05Z"=EF=BC=89</li>
+<li>=E8=8B=A5=E7=BD=91=E7=BB=9C=E5=9C=A8=E6=8F=90=E6=A1=88=E6=8A=95=E7=A5=
+=A8=E7=BB=93=E6=9D=9F=E5=89=8D=E5=88=B0=E8=BE=BE=E4=BA=86=E5=8D=87=E7=BA=A7=
+=E9=AB=98=E5=BA=A6=E6=88=96=E6=97=B6=E9=97=B4=EF=BC=8C=E5=88=99=E6=8F=90=E6=
+=A1=88=E5=A4=B1=E8=B4=A5=EF=BC=8C=E7=BD=91=E7=BB=9C=E7=BB=A7=E7=BB=AD=E4=BD=
+=BF=E7=94=A8=E5=8E=9F=E7=89=88=E6=9C=AC=E8=BF=90=E8=A1=8C</li>
+<li>=E6=8A=95=E7=A5=A8=E9=80=9A=E8=BF=87=E4=BD=86=E5=B0=9A=E6=9C=AA=E6=89=
+=A7=E8=A1=8C=E5=8D=87=E7=BA=A7=E7=9A=84=E6=8F=90=E6=A1=88=EF=BC=8C=E5=8F=AF=
+=E4=BB=A5=E9=80=9A=E8=BF=87=E6=8F=90=E4=BA=A4 cancel-software-upgrade =E6=
+=8F=90=E6=A1=88=E8=BF=9B=E8=A1=8C=E6=92=A4=E9=94=80</li>
+<li>=E5=B7=B2=E5=AE=8C=E6=88=90=E5=8D=87=E7=BA=A7=E7=9A=84 upgrade name =E4=
+=B8=8D=E8=83=BD=E5=86=8D=E6=AC=A1=E8=A2=AB=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=
+=88=E4=BD=BF=E7=94=A8</li>
+</ol></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">2</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=BD=BF=E7=94=A8=E5=A2=9E=E5=8A=
+=A0=E4=BA=86=E6=96=B0=E5=8A=9F=E8=83=BD=E6=A8=A1=E5=9D=97=E7=9A=84=E8=BD=AF=
+=E4=BB=B6=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=A7</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E5=8D=87=E7=BA=A7=E6=8F=90=E6=
+=A1=88=E9=80=9A=E8=BF=87=E5=90=8E=EF=BC=9A</p>
+<ol>
+<li>=E5=88=B0=E8=BE=BE=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=E6=8C=87=E5=AE=
+=9A=E7=9A=84=E5=8C=BA=E5=9D=97=E9=AB=98=E5=BA=A6=E6=88=96=E6=97=B6=E9=97=B4=
+=E6=97=B6=EF=BC=8C=E7=BD=91=E7=BB=9C=E5=81=9C=E6=AD=A2=E5=87=BA=E5=9D=97</l=
+i>
+<li>=E5=81=9C=E6=AD=A2=E8=BF=90=E8=A1=8C=E4=B8=AD=E7=9A=84=E8=8A=82=E7=82=
+=B9=EF=BC=8C=E5=B9=B6=E6=9B=BF=E6=8D=A2=E8=8A=82=E7=82=B9=E8=BD=AF=E4=BB=B6=
+=E7=89=88=E6=9C=AC=E4=B8=BA=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=E4=B8=AD=E6=
+=8C=87=E5=AE=9A=E7=9A=84 name =E5=AF=B9=E5=BA=94=E7=9A=84=E7=89=88=E6=9C=AC=
+</li>
+<li>=E4=BD=BF=E7=94=A8=E6=96=B0=E7=89=88=E6=9C=AC=E8=BD=AF=E4=BB=B6=E9=80=
+=90=E6=AD=A5=E5=90=AF=E5=8A=A8=E9=AA=8C=E8=AF=81=E4=BA=BA=E8=8A=82=E7=82=B9=
+=EF=BC=8C=E5=BD=93 Voting Power =E8=BE=BE=E5=88=B0 67% =E5=90=8E=EF=BC=8C=
+=E7=BD=91=E7=BB=9C=E6=81=A2=E5=A4=8D=E5=87=BA=E5=9D=97</li>
+<li>=E5=8E=9F=E7=89=88=E6=9C=AC=E5=8A=9F=E8=83=BD=E5=8F=AF=E6=AD=A3=E5=B8=
+=B8=E4=BD=BF=E7=94=A8</li>
+<li>=E6=96=B0=E7=89=88=E6=9C=AC=E6=96=B0=E5=8A=9F=E8=83=BD=E5=8F=AF=E6=AD=
+=A3=E5=B8=B8=E4=BD=BF=E7=94=A8</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"a01Upgrade=E6=A8=A1=E5=9D=97=E6=B5=
+=8B=E8=AF=95=E7=94=A8=E4=BE=8B-=E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=8B">=E6=B5=
+=8B=E8=AF=95=E7=94=A8=E4=BE=8B</h2>
+<h3 id=3D"a01Upgrade=E6=A8=A1=E5=9D=97=E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=8B-=
+=E6=AD=A3=E5=90=91=E6=B5=8B=E8=AF=95=EF=BC=9A">=E6=AD=A3=E5=90=91=E6=B5=8B=
+=E8=AF=95=EF=BC=9A</h3>
+<div class=3D"table-wrap">
+<table class=3D"fixed-table confluenceTable">
+<colgroup>
+<col style=3D"width: 29.0px;">
+<col style=3D"width: 241.0px;">
+<col style=3D"width: 289.0px;">
+<col style=3D"width: 381.0px;">
+<col style=3D"width: 280.0px;">
+<col style=3D"width: 407.0px;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"confluenceTh"><br></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E5=8A=9F=E8=83=
+=BD=E6=8F=8F=E8=BF=B0</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E5=89=8D=E6=8F=
+=90=E6=9D=A1=E4=BB=B6</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E6=AD=A5=E9=AA=
+=A4=E6=8F=8F=E8=BF=B0</p></th>
+<th colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTh"><p>=
+=E6=9C=9F=E6=9C=9B=E7=BB=93=E6=9E=9C</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E6=B5=8B=E8=AF=
+=95=E6=95=B0=E6=8D=AE</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=AD=A3=E5=B8=B8=E5=8D=87=E7=BA=
+=A7=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E9=AB=98=E5=BA=A6=EF=BC=89=
+=EF=BC=8C=E9=AA=8C=E8=AF=81=E6=96=B0=E6=A8=A1=E5=9D=97=E5=8A=9F=E8=83=BD=E5=
+=8F=AF=E6=AD=A3=E5=B8=B8=E4=BD=BF=E7=94=A8</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E5=8D=87=E7=BA=A7=E5=90=8E=E7=9A=84=E6=96=B0=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E5=8C=85=E5=90=AB wasm =E5=8A=9F=E8=83=BD=E6=A8=A1=E5=9D=97</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E9=AB=98=E5=BA=A6=EF=BC=
+=89=E3=80=82</li>
+<li>=E9=80=9A=E8=BF=87gov=E8=BF=9B=E8=A1=8C=E6=8A=95=E7=A5=A8=EF=BC=8C=E4=
+=BD=BF=E6=8F=90=E8=AE=AE=E9=80=9A=E8=BF=87=E3=80=82</li>
+<li>=E9=93=BE=E5=9C=A8=E6=8C=87=E5=AE=9A=E9=AB=98=E5=BA=A6=E5=81=9C=E6=AD=
+=A2=E3=80=82</li>
+<li>=E5=90=84=E8=8A=82=E7=82=B9=E6=9B=B4=E6=8D=A2=E6=96=B0=E7=89=88=E6=9C=
+=AC=E7=9A=84iris=EF=BC=8C=E5=90=AF=E5=8A=A8=E5=87=BA=E5=9D=97</li>
+<li>=E6=B5=8B=E8=AF=95=E6=96=B0=E5=8A=9F=E8=83=BDwasm=E6=98=AF=E5=90=A6=E8=
+=83=BD=E6=89=A7=E8=A1=8C=E6=88=90=E5=8A=9F</li>
+<li>=E9=AA=8C=E8=AF=81=E5=8E=9F=E5=8A=9F=E8=83=BD=E9=83=BD=E8=83=BD=E6=AD=
+=A3=E5=B8=B8=E4=BD=BF=E7=94=A8=EF=BC=88=E5=9B=9E=E5=BD=92=E6=B5=8B=E8=AF=95=
+=EF=BC=89</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=90=84=E6=AD=A5=E9=AA=A4=E8=BF=90=E8=A1=8C=E6=AD=A3=E7=A1=AE=E3=80=
+=82</li>
+<li>=E9=93=BE=E8=A2=AB=E6=AD=A3=E5=B8=B8=E5=8D=87=E7=BA=A7=E3=80=82</li>
+<li>=E6=96=B0=E5=8A=9F=E8=83=BDwasm=E6=89=A7=E8=A1=8C=E6=88=90=E5=8A=9F</li=
+>
+<li>=E7=94=A8=E8=87=AA=E5=8A=A8=E5=8C=96=E5=9B=9E=E5=BD=92=E6=B5=8B=E8=AF=
+=95=E9=AA=8C=E8=AF=81=E5=8E=9F=E5=8A=9F=E8=83=BD=E8=83=BD=E6=AD=A3=E7=A1=AE=
+=E4=BD=BF=E7=94=A8=E3=80=82</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>1) iris tx gov submit-proposal =
+software-upgrade v1 --upgrade-height=3D150 --deposit=3D10iris --title=3D"up=
+grade test" --description=3D"upgrade test" --chain-id=3Dqa-test --from=3Dv0=
+ --fees=3D0.3iris -b block -y<br>2) iris tx gov vote 1 yes --chain-id=3Dqa-=
+test --from=3Dv0 --fees=3D0.3iris -b block -y<br>3=EF=BC=89iris tx wasm sto=
+re /Users/sherlock/my_workspace/wasm/election.wasm --from node0 --gas-price=
+s=3D"25uiris" --gas=3D"auto" --gas-adjustment=3D"1.2" -y --chain-id=3Dqa-te=
+st --from=3Dv0 -b block -y</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">2</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E6=AD=A3=E5=B8=B8=E5=8D=87=
+=E7=BA=A7=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E6=97=B6=E9=97=B4=EF=
+=BC=89=EF=BC=8C=E9=AA=8C=E8=AF=81=E6=96=B0=E6=A8=A1=E5=9D=97=E5=8A=9F=E8=83=
+=BD=E5=8F=AF=E6=AD=A3=E5=B8=B8=E4=BD=BF=E7=94=A8</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E5=8D=87=E7=BA=A7=E5=90=8E=E7=9A=84=E6=96=B0=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E5=8C=85=E5=90=AB wasm =E5=8A=9F=E8=83=BD=E6=A8=A1=E5=9D=97</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE<span>=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E6=97=B6=E9=97=B4=
+=EF=BC=89=E3=80=82</span></li>
+<li>=E9=80=9A=E8=BF=87gov=E8=BF=9B=E8=A1=8C=E6=8A=95=E7=A5=A8=EF=BC=8C=E4=
+=BD=BF=E6=8F=90=E8=AE=AE=E9=80=9A=E8=BF=87=E3=80=82</li>
+<li>=E9=93=BE=E5=9C=A8=E6=8C=87=E5=AE=9A=E6=97=B6=E9=97=B4=E5=81=9C=E6=AD=
+=A2=E3=80=82</li>
+<li>=E5=90=84=E8=8A=82=E7=82=B9=E6=9B=B4=E6=8D=A2=E6=96=B0=E7=89=88=E6=9C=
+=AC=E7=9A=84iris=EF=BC=8C=E5=90=AF=E5=8A=A8=E5=87=BA=E5=9D=97</li>
+<li>=E6=B5=8B=E8=AF=95=E6=96=B0=E5=8A=9F=E8=83=BDwasm=E6=98=AF=E5=90=A6=E8=
+=83=BD=E6=89=A7=E8=A1=8C=E6=88=90=E5=8A=9F=E3=80=82</li>
+<li>=E9=AA=8C=E8=AF=81=E5=8E=9F=E5=8A=9F=E8=83=BD=E9=83=BD=E8=83=BD=E6=AD=
+=A3=E5=B8=B8=E4=BD=BF=E7=94=A8=EF=BC=88=E5=9B=9E=E5=BD=92=E6=B5=8B=E8=AF=95=
+=EF=BC=89</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=90=84=E6=AD=A5=E9=AA=A4=E8=BF=90=E8=A1=8C=E6=AD=A3=E7=A1=AE=E3=80=
+=82</li>
+<li>=E9=93=BE=E8=A2=AB=E6=AD=A3=E5=B8=B8=E5=8D=87=E7=BA=A7=E3=80=82</li>
+<li>=E6=96=B0=E5=8A=9F=E8=83=BDwasm=E6=89=A7=E8=A1=8C=E6=88=90=E5=8A=9F</li=
+>
+<li>=E7=94=A8=E8=87=AA=E5=8A=A8=E5=8C=96=E5=9B=9E=E5=BD=92=E6=B5=8B=E8=AF=
+=95=E9=AA=8C=E8=AF=81=E5=8E=9F=E5=8A=9F=E8=83=BD=E8=83=BD=E6=AD=A3=E7=A1=AE=
+=E4=BD=BF=E7=94=A8=E3=80=82</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">3</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>1. =E7=AC=AC=E4=B8=80=E6=AC=A1=
+=E5=8D=87=E7=BA=A7=EF=BC=8Cgov=E8=A2=AB=E6=8B=92=E7=BB=9D=E6=B2=A1=E9=80=9A=
+=E8=BF=87</p><p>2. =E7=AC=AC=E4=BA=8C=E6=AC=A1=E5=8F=91=E8=B5=B7=E5=8D=87=
+=E7=BA=A7=E6=8F=90=E8=AE=AE=EF=BC=88=E4=BD=BF=E7=94=A8=E5=92=8C=E4=B8=8A=E6=
+=AC=A1=E7=9B=B8=E5=90=8C=E7=9A=84name=EF=BC=89=EF=BC=8C=E6=AD=A3=E5=B8=B8=
+=E5=8D=87=E7=BA=A7=EF=BC=8C=E9=AA=8C=E8=AF=81=E6=96=B0=E6=A8=A1=E5=9D=97=E5=
+=8A=9F=E8=83=BD=E5=8F=AF=E6=AD=A3=E5=B8=B8=E4=BD=BF=E7=94=A8</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E5=8D=87=E7=BA=A7=E5=90=8E=E7=9A=84=E6=96=B0=E7=89=88=E6=9C=AC=E4=B8=
+=AD=E5=8C=85=E5=90=AB wasm =E5=8A=9F=E8=83=BD=E6=A8=A1=E5=9D=97</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE=E3=80=82</li>
+<li>=E6=8F=90=E8=AE=AE=E6=8B=92=E7=BB=9D,=E5=8D=87=E7=BA=A7=E5=8F=96=E6=B6=
+=88=E3=80=82</li>
+<li>=E5=86=8D=E6=AC=A1=E5=8F=91=E8=B5=B7<span>gov=E5=8F=91=E8=B5=B7=E5=8D=
+=87=E7=BA=A7=E6=8F=90=E8=AE=AE=E3=80=82</span></li>
+<li>=E9=80=9A=E8=BF=87gov=E8=BF=9B=E8=A1=8C=E6=8A=95=E7=A5=A8=EF=BC=8C=E4=
+=BD=BF=E6=8F=90=E8=AE=AE=E9=80=9A=E8=BF=87=E3=80=82</li>
+<li>=E9=93=BE=E5=9C=A8=E6=8C=87=E5=AE=9A=E6=97=B6=E9=97=B4=E5=81=9C=E6=AD=
+=A2=E3=80=82</li>
+<li>=E5=90=84=E8=8A=82=E7=82=B9=E6=9B=B4=E6=8D=A2=E6=96=B0=E7=89=88=E6=9C=
+=AC=E7=9A=84iris=EF=BC=8C=E5=90=AF=E5=8A=A8=E5=87=BA=E5=9D=97</li>
+<li>=E6=B5=8B=E8=AF=95=E6=96=B0=E5=8A=9F=E8=83=BDwasm=E6=98=AF=E5=90=A6=E8=
+=83=BD=E6=89=A7=E8=A1=8C=E6=88=90=E5=8A=9F=E3=80=82</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=90=84=E6=AD=A5=E9=AA=A4=E8=BF=90=E8=A1=8C=E6=AD=A3=E7=A1=AE=E3=80=
+=82</li>
+<li>=E7=AC=AC=E4=B8=80=E6=AC=A1=E5=8D=87=E7=BA=A7=E8=A2=AB=E5=8F=96=E6=B6=
+=88=EF=BC=8C=E5=88=B0=E4=BA=86=E6=8C=87=E5=AE=9A=E9=AB=98=E5=BA=A6=E4=B8=8D=
+=E4=BC=9A=E5=81=9C=E9=93=BE</li>
+<li>=E7=AC=AC=E4=BA=8C=E6=AC=A1=E5=8D=87=E7=BA=A7=E9=93=BE=E8=A2=AB=E6=AD=
+=A3=E5=B8=B8=E5=8D=87=E7=BA=A7=E3=80=82</li>
+<li>=E6=96=B0=E5=8A=9F=E8=83=BDwasm=E6=89=A7=E8=A1=8C=E6=88=90=E5=8A=9F</li=
+>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">4</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=92=A4=E9=94=80=E5=B7=B2=E9=80=
+=9A=E8=BF=87=EF=BC=8C=E6=9C=AA=E6=89=A7=E8=A1=8C=E7=9A=84=E6=8F=90=E6=A1=88=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E5=B7=B2=E6=9C=89=E6=8A=95=E7=A5=A8=E9=80=9A=E8=BF=87=E4=B8=94=E6=9C=
+=AA=E6=89=A7=E8=A1=8C=E7=9A=84=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=EF=BC=8C=
+=E4=B8=94=E7=9B=AE=E6=A0=87=E5=8D=87=E7=BA=A7=E9=AB=98=E5=BA=A6=E5=AF=B9=E5=
+=BA=94=E6=97=B6=E9=97=B4=E7=BA=A6=E4=B8=BA10=E5=88=86=E9=92=9F=E5=90=8E</li=
+>
+<li>Gov =E7=9A=84 voting_period&nbsp;=E7=AD=89=E4=BA=8E 3 =E5=88=86=E9=92=
+=9F</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E6=97=B6=E9=97=B4=EF=BC=
+=89=E3=80=82</li>
+<li>=E9=80=9A=E8=BF=87gov=E8=BF=9B=E8=A1=8C=E6=8A=95=E7=A5=A8=EF=BC=8C=E4=
+=BD=BF=E6=8F=90=E8=AE=AE=E9=80=9A=E8=BF=87=E3=80=82</li>
+<li>=E5=8F=91=E8=B5=B7&nbsp;cancel-software-upgrade =E7=B1=BB=E5=9E=8B=E7=
+=9A=84 Proposal</li>
+<li>=E5=9C=A8 3 =E5=88=86=E9=92=9F=E5=86=85=E5=AE=8C=E6=88=90=E6=8F=90=E6=
+=A1=88=E6=8A=B5=E6=8A=BC=E5=92=8C=E6=8A=95=E7=A5=A8</li>
+<li>=E7=AD=89=E5=BE=85=E8=87=B3=E7=9B=AE=E6=A0=87=E5=8D=87=E7=BA=A7=E6=97=
+=B6=E9=97=B4=E4=B9=8B=E5=90=8E=EF=BC=8C=E6=9F=A5=E7=9C=8B=E8=8A=82=E7=82=B9=
+=E7=8A=B6=E6=80=81</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>cancel-software-upgrade Proposal =E4=B8=8A=E9=93=BE=E6=88=90=E5=8A=9F=
+=E5=B9=B6=E6=8A=95=E7=A5=A8=E9=80=9A=E8=BF=87</li>
+<li>=E7=BD=91=E7=BB=9C=E7=BB=A7=E7=BB=AD=E5=87=BA=E5=9D=97=EF=BC=8C=E8=B6=
+=85=E8=BF=87=E5=8E=9F=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=E7=9A=84=E7=9B=AE=
+=E6=A0=87=E9=AB=98=E5=BA=A6</li>
+</ol><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>iris tx gov submit-proposal cancel-software-upgrade --title "=E6=B5=8B=
+=E8=AF=95=E5=8F=96=E6=B6=88=E5=8D=87=E7=BA=A7" --description "xxx" --from v=
+1 --chain-id irishub-test --fees 2stake</li>
+<li>iris tx gov deposit 2 10000000stake --chain-id irishub-test --from v1 -=
+-fees 2stake -y</li>
+</ol></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">5</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E6=92=A4=E9=94=80=E6=8F=90=
+=E6=A1=88=E5=90=8E=EF=BC=8C=E5=86=8D=E6=AC=A1=E5=8F=91=E8=B5=B7=E4=B8=80=E4=
+=B8=AA=E6=96=B0=E7=9A=84=E6=8F=90=E6=A1=88=EF=BC=8C=E5=B9=B6=E4=B8=94=E8=A2=
+=AB=E6=AD=A3=E5=B8=B8=E5=8D=87=E7=BA=A7</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>cancel-software-upgrade Proposal =E4=B8=8A=E9=93=BE=E6=88=90=E5=8A=9F=
+=E5=B9=B6=E6=8A=95=E7=A5=A8=E9=80=9A=E8=BF=87<br><br></li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E6=97=B6=E9=97=B4=EF=BC=
+=89=E3=80=82</li>
+<li>=E9=80=9A=E8=BF=87gov=E8=BF=9B=E8=A1=8C=E6=8A=95=E7=A5=A8=EF=BC=8C=E4=
+=BD=BF=E6=8F=90=E8=AE=AE=E9=80=9A=E8=BF=87=E3=80=82</li>
+<li><span>cancel-software-upgrade Proposal =E4=B8=8A=E9=93=BE=E6=88=90=E5=
+=8A=9F=E5=B9=B6=E6=8A=95=E7=A5=A8=E9=80=9A=E8=BF=87</span></li>
+<li>=E9=87=8D=E6=96=B0=E5=8F=91=E8=B5=B7=E6=96=B0=E7=9A=84=E6=8F=90=E6=A1=
+=88=EF=BC=8C=E6=8A=95=E7=A5=A8=E9=80=9A=E8=BF=87=E3=80=82=E5=B9=B6=E4=B8=94=
+=E5=8F=AF=E4=BB=A5=E6=AD=A3=E5=B8=B8=E5=8D=87=E7=BA=A7=E3=80=82</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E7=AC=AC=E4=BA=8C=E6=AC=A1=E5=8F=91=E8=B5=B7=E6=8F=90=E6=A1=88=E6=AD=
+=A3=E5=B8=B8=E5=8D=87=E7=BA=A7=E3=80=82</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"a01Upgrade=E6=A8=A1=E5=9D=97=E6=B5=8B=E8=AF=95=E7=94=A8=E4=BE=8B-=
+=E8=B4=9F=E5=90=91=E6=B5=8B=E8=AF=95=EF=BC=9A">=E8=B4=9F=E5=90=91=E6=B5=8B=
+=E8=AF=95=EF=BC=9A</h3>
+<div class=3D"table-wrap">
+<table class=3D"fixed-table confluenceTable">
+<colgroup>
+<col style=3D"width: 29.0px;">
+<col style=3D"width: 241.0px;">
+<col style=3D"width: 289.0px;">
+<col style=3D"width: 381.0px;">
+<col style=3D"width: 280.0px;">
+<col style=3D"width: 407.0px;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"confluenceTh"><br></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E5=8A=9F=E8=83=
+=BD=E6=8F=8F=E8=BF=B0</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E5=89=8D=E6=8F=
+=90=E6=9D=A1=E4=BB=B6</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E6=AD=A5=E9=AA=
+=A4=E6=8F=8F=E8=BF=B0</p></th>
+<th colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTh"><p>=
+=E6=9C=9F=E6=9C=9B=E7=BB=93=E6=9E=9C</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=E6=B5=8B=E8=AF=
+=95=E6=95=B0=E6=8D=AE</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E6=9C=89=E4=B8=80=E4=B8=AA=
+=E6=B4=BB=E8=B7=83=E7=9A=84=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=EF=BC=8C=EF=
+=BC=88=E5=9C=A8gov=E8=BF=98=E6=9C=AA=E9=80=9A=E8=BF=87=E7=9A=84=E6=97=B6=E5=
+=80=99=EF=BC=89=E5=86=8D=E6=AC=A1=E6=8F=90=E4=BA=A4=E5=8D=87=E7=BA=A7=E6=8F=
+=90=E8=AE=AE</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E6=B2=A1=E6=9C=89=E6=B4=BB=E8=B7=83=EF=BC=88=E6=8A=B5=E6=8A=BC=E4=B8=
+=AD=E3=80=81=E6=8A=95=E7=A5=A8=E4=B8=AD=E3=80=81=E5=B7=B2=E9=80=9A=E8=BF=87=
+=E5=B9=B6=E6=AD=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=EF=BC=89=E7=9A=84=E5=8D=87=E7=
+=BA=A7=E6=8F=90=E6=A1=88</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li><span>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=
+=90=E8=AE=AE<span>Proposal 1</span>=E3=80=82</span></li>
+<li>=E5=9C=A8 Proposal 1 =E7=9A=84 Deposit Period =E6=9C=9F=E9=97=B4=E5=86=
+=85=EF=BC=8C=E5=8F=91=E8=B5=B7software-upgrade=E7=B1=BB=E5=9E=8B=E7=9A=84Pr=
+oposal 2=EF=BC=88=E4=BD=BF=E7=94=A8=E7=9B=B8=E5=90=8C=E7=9A=84name=EF=BC=89=
+</li>
+<li><span>=E5=9C=A8 Proposal 1 =E7=9A=84 Deposit Period =E6=9C=9F=E9=97=B4=
+=E5=86=85=EF=BC=8C=E5=8F=91=E8=B5=B7software-upgrade=E7=B1=BB=E5=9E=8B=E7=
+=9A=84Proposal 3=EF=BC=88=E4=BD=BF=E7=94=A8=E6=96=B0=E7=9A=84name=EF=BC=89<=
+/span><br><span><br></span></li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>Proposal 1 =E4=B8=8A=E9=93=BE=E6=88=90=E5=8A=9F</li>
+<li>Proposal 2 =E8=A2=AB=E6=8B=92=E7=BB=9D=E4=B8=8A=E9=93=BE</li>
+<li>Proposal 3=E8=A2=AB=E6=8B=92=E7=BB=9D=E4=B8=8A=E9=93=BE</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">2</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=9C=89=E4=B8=80=E4=B8=AA=E6=B4=
+=BB=E8=B7=83=E7=9A=84=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=EF=BC=8C=EF=BC=88=
+=E5=9C=A8gov=E5=B7=B2=E9=80=9A=E8=BF=87=EF=BC=8C=E4=BD=86=E6=9C=AA=E5=88=B0=
+=E6=89=A7=E8=A1=8C=E9=AB=98=E5=BA=A6=EF=BC=89=E5=86=8D=E6=AC=A1=E6=8F=90=E4=
+=BA=A4=E5=8D=87=E7=BA=A7=E6=8F=90=E8=AE=AE</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E6=B2=A1=E6=9C=89=E6=B4=BB=E8=B7=83=EF=BC=88=E6=8A=B5=E6=8A=BC=E4=B8=
+=AD=E3=80=81=E6=8A=95=E7=A5=A8=E4=B8=AD=E3=80=81=E5=B7=B2=E9=80=9A=E8=BF=87=
+=E5=B9=B6=E6=AD=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=EF=BC=89=E7=9A=84=E5=8D=87=E7=
+=BA=A7=E6=8F=90=E6=A1=88</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AEProposal 1=E3=80=82</li>
+<li>=E5=9C=A8 Proposal 1 =E9=80=9A=E8=BF=87=EF=BC=8C=E4=BD=86=E6=98=AF=E6=
+=9C=AA=E5=88=B0=E6=89=A7=E8=A1=8C=E9=AB=98=E5=BA=A6=EF=BC=8C=E5=8F=91=E8=B5=
+=B7software-upgrade=E7=B1=BB=E5=9E=8B=E7=9A=84Proposal 2<br><br></li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>Proposal 1 =E4=B8=8A=E9=93=BE=E6=88=90=E5=8A=9F</li>
+<li>Proposal 2 =E8=A2=AB=E6=8B=92=E7=BB=9D=E4=B8=8A=E9=93=BE</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">3</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E5=8D=87=E7=BA=A7=E6=8F=90=E6=
+=A1=88=E6=97=B6=E6=8C=87=E5=AE=9A=E9=AB=98=E5=BA=A6=EF=BC=88upgrade-height=
+=EF=BC=89=E4=B8=BA=E8=BF=87=E5=8E=BB=E7=9A=84=E6=97=B6=E5=88=BB</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E6=B2=A1=E6=9C=89=E6=B4=BB=E8=B7=83=EF=BC=88=E6=8A=B5=E6=8A=BC=E4=B8=
+=AD=E3=80=81=E6=8A=95=E7=A5=A8=E4=B8=AD=E3=80=81=E5=B7=B2=E9=80=9A=E8=BF=87=
+=E5=B9=B6=E6=AD=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=EF=BC=89=E7=9A=84=E5=8D=87=E7=
+=BA=A7=E6=8F=90=E6=A1=88</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AEProposal 1=E3=80=82</li>
+<li><span>=E6=8C=87=E5=AE=9A=E7=9B=AE=E6=A0=87=E5=8C=BA=E5=9D=97=E9=AB=98=
+=E5=BA=A6=E4=B8=BA=E8=BF=87=E5=8E=BB=E7=9A=84=E5=8C=BA=E5=9D=97=E9=AB=98=E5=
+=BA=A6</span></li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>Proposal 1 =E8=A2=AB=E6=8B=92=E7=BB=9D=E4=B8=8A=E9=93=BE</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">4</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E5=8D=87=E7=BA=A7=E6=8F=90=
+=E6=A1=88=E6=97=B6=E6=8C=87=E5=AE=9A=E9=AB=98=E5=BA=A6=EF=BC=88upgrade-heig=
+ht=EF=BC=89=E4=B8=BA0=EF=BC=8C=E8=B4=9F=E6=95=B0=E6=88=96=E9=9D=9E=E6=95=B0=
+=E5=AD=97</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E6=B2=A1=E6=9C=89=E6=B4=BB=E8=B7=83=EF=BC=88=E6=8A=B5=E6=8A=BC=E4=B8=
+=AD=E3=80=81=E6=8A=95=E7=A5=A8=E4=B8=AD=E3=80=81=E5=B7=B2=E9=80=9A=E8=BF=87=
+=E5=B9=B6=E6=AD=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=EF=BC=89=E7=9A=84=E5=8D=87=E7=
+=BA=A7=E6=8F=90=E6=A1=88</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AEProposal 1=E3=80=82</li>
+<li>=E6=8C=87=E5=AE=9A=E7=9B=AE=E6=A0=87=E5=8C=BA=E5=9D=97=E9=AB=98=E5=BA=
+=A6=E4=B8=BA=E8=BF=87=E5=8E=BB=E7=9A=84=E5=8C=BA=E5=9D=97=E9=AB=98=E5=BA=A6=
+</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>submit-proposal =E7=9B=B4=E6=8E=A5=E6=8A=A5=E9=94=99</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">5</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=8D=87=E7=BA=A7=E9=AB=98=E5=BA=
+=A6=E5=85=88=E4=BA=8E=E6=8F=90=E6=A1=88=E7=BB=93=E6=9D=9F=E5=88=B0=E8=BE=BE=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E6=B2=A1=E6=9C=89=E6=B4=BB=E8=B7=83=EF=BC=88=E6=8A=B5=E6=8A=BC=E4=B8=
+=AD=E3=80=81=E6=8A=95=E7=A5=A8=E4=B8=AD=E3=80=81=E5=B7=B2=E9=80=9A=E8=BF=87=
+=E5=B9=B6=E6=AD=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=EF=BC=89=E7=9A=84=E5=8D=87=E7=
+=BA=A7=E6=8F=90=E6=A1=88</li>
+<li>Gov =E7=9A=84 voting_period =E5=A4=A7=E4=BA=8E=E7=AD=89=E4=BA=8E 3 =E5=
+=88=86=E9=92=9F</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7<span>=E9=AB=98=E5=BA=A6=
+</span>=EF=BC=89=E3=80=82</li>
+<li>=E9=93=BE=E5=88=B0=E6=8C=87=E5=AE=9A<span>=E9=AB=98=E5=BA=A6</span>=EF=
+=BC=8Cgov=E8=BF=98=E6=9C=AA=E7=BB=93=E6=9D=9F=E3=80=82<br><br></li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=88=B0=E4=BA=86=E6=8C=87=E5=AE=9A=E9=AB=98=E5=BA=A6=E8=8A=82=E7=82=
+=B9=E7=BB=A7=E7=BB=AD=E8=BF=90=E8=A1=8C=E5=8E=9F=E7=BD=91=E7=BB=9C</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">6</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=8D=87=E7=BA=A7=E6=97=B6=E9=97=
+=B4=E5=85=88=E4=BA=8E=E6=8F=90=E6=A1=88=E7=BB=93=E6=9D=9F=E5=88=B0=E8=BE=BE=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E6=B2=A1=E6=9C=89=E6=B4=BB=E8=B7=83=EF=BC=88=E6=8A=B5=E6=8A=BC=E4=B8=
+=AD=E3=80=81=E6=8A=95=E7=A5=A8=E4=B8=AD=E3=80=81=E5=B7=B2=E9=80=9A=E8=BF=87=
+=E5=B9=B6=E6=AD=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=EF=BC=89=E7=9A=84=E5=8D=87=E7=
+=BA=A7=E6=8F=90=E6=A1=88</li>
+<li>Gov =E7=9A=84 voting_period =E5=A4=A7=E4=BA=8E=E7=AD=89=E4=BA=8E 3 =E5=
+=88=86=E9=92=9F</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE=EF=BC=88=E6=8C=87=E5=AE=9A=E5=8D=87=E7=BA=A7=E6=97=B6=E9=97=B4=EF=BC=
+=89=E3=80=82</li>
+<li>=E9=93=BE=E5=88=B0=E6=8C=87=E5=AE=9A=E6=97=B6=E9=97=B4=EF=BC=8Cgov=E8=
+=BF=98=E6=9C=AA=E7=BB=93=E6=9D=9F=E3=80=82<br><br></li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=88=B0=E4=BA=86=E6=8C=87=E5=AE=9A=E6=97=B6=E9=97=B4=E8=8A=82=E7=82=
+=B9=E7=BB=A7=E7=BB=AD=E8=BF=90=E8=A1=8C=E5=8E=9F=E7=BD=91=E7=BB=9C</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">7</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=
+=88=E4=B8=AD=E7=9A=84name=E5=92=8C=E6=96=B0=E7=89=88=E6=9C=AC=E5=86=85=E9=
+=83=A8=E7=9A=84name=E4=B8=8D=E4=B8=80=E8=87=B4</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E6=B2=A1=E6=9C=89=E6=B4=BB=E8=B7=83=EF=BC=88=E6=8A=B5=E6=8A=BC=E4=B8=
+=AD=E3=80=81=E6=8A=95=E7=A5=A8=E4=B8=AD=E3=80=81=E5=B7=B2=E9=80=9A=E8=BF=87=
+=E5=B9=B6=E6=AD=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=EF=BC=89=E7=9A=84=E5=8D=87=E7=
+=BA=A7=E6=8F=90=E6=A1=88</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=BF=90=E8=A1=8C=E6=97=A7=E7=89=88=E6=9C=AC=E7=9A=84iris=E3=80=82</li=
+>
+<li>=E9=80=9A=E8=BF=87gov=E5=8F=91=E8=B5=B7=E5=8D=87=E7=BA=A7=E6=8F=90=E8=
+=AE=AE=EF=BC=8C=E5=B9=B6=E9=80=9A=E8=BF=87=E3=80=82</li>
+<li>=E9=93=BE=E5=81=9C=E6=AD=A2=EF=BC=8C=E4=BD=BF=E7=94=A8=E6=96=B0=E7=89=
+=88=E6=9C=AC=E5=90=8E=E5=90=AF=E5=8A=A8</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E8=8A=82=E7=82=B9=E5=90=AF=E5=8A=A8=E5=A4=B1=E8=B4=A5</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">8</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E5=B7=B2=E5=AE=8C=E6=88=90=
+=E5=8D=87=E7=BA=A7=E7=9A=84 upgrade name =E4=B8=8D=E8=83=BD=E5=86=8D=E6=AC=
+=A1=E8=A2=AB=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88=E4=BD=BF=E7=94=A8</span></=
+td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E5=B7=B2=E6=9C=89=E6=AD=A3=E5=B8=B8=E5=87=BA=E5=9D=97=E7=9A=84=E5=A4=
+=9A=E8=8A=82=E7=82=B9=E5=8C=BA=E5=9D=97=E9=93=BE=E7=BD=91=E7=BB=9C&nbsp;</l=
+i>
+<li>=E5=B7=B2=E5=AE=8C=E6=88=90=E8=87=B3=E5=B0=91=E4=B8=80=E6=AC=A1=E8=BD=
+=AF=E4=BB=B6=E5=8D=87=E7=BA=A7</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>=E4=BD=BF=E7=94=A8=E7=AC=AC=E4=B8=80=E6=AC=A1=E5=8D=87=E7=BA=A7=E6=8F=
+=90=E6=A1=88=E5=AF=B9=E5=BA=94=E7=9A=84 upgrade name=EF=BC=8C=E5=8F=91=E8=
+=B5=B7=E6=96=B0=E7=9A=84=E5=8D=87=E7=BA=A7=E6=8F=90=E6=A1=88</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>Proposal&nbsp;=E8=A2=AB=E6=8B=92=E7=BB=9D=E4=B8=8A=E9=93=BE</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_130120_1613446656.1624269611993--
